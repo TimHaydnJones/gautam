@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="QUICK SUMMARY"
+        android:layout_height="55.0dp"
+        android:id="@+id/button4"
+        style="@style/button_text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:background="@drawable/blue_button"
+        android:layout_marginLeft="0.0dp"
+        android:layout_marginRight="0.0dp"
+        android:layout_width="match_parent" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="370.5dp"
+        android:id="@+id/textView1"
+        android:backgroundTint="#ffffffff"
+        android:textColor="#000000"
+        android:scrollbars="vertical"
+        android:maxLines="20"
+        android:layout_marginBottom="0.0dp"
+        android:layout_marginTop="0.0dp"
+        android:layout_below="@id/button4" />
+    <Button
+        android:text="CHART"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_marginLeft="280dip"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_marginTop="100dip"
+        android:background="@drawable/blue_button" />
+    <Button
+        android:background="@drawable/blue_button"
+        android:text="BACK TO MAIN MENU"
+        android:layout_width="match_parent"
+        android:layout_height="55.0dp"
+        android:id="@+id/button3"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/textView1"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="200dip"
+        style="@style/button_text" />
+</RelativeLayout>

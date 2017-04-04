@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+      android:text="ENTER EMAIL ADDRESS"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView1"
+      android:layout_marginTop="11.0dp" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editText1"
+      android:layout_marginBottom="11.0dp" />
+  <TextView
+      android:text="ENTER NAME"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView2" />
+  <EditText
+      android:inputType="text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editText2"
+      android:layout_marginBottom="11.0dp" />
+  <Spinner
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/spinner1"
+      android:theme="@style/CustomActionBarTheme" />
+  <Button
+      android:text="SAVE"
+      android:layout_width="match_parent"
+      android:layout_height="72.0dp"
+      android:id="@+id/button1"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_marginBottom="11.0dp"
+      android:background="@drawable/blue_button"
+      style="@style/button_text" />
+  <Button
+      android:text="RETURN TO MAIN MENU"
+      android:layout_width="match_parent"
+      android:layout_height="72.0dp"
+      android:id="@+id/button2"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:background="@drawable/blue_button"
+      style="@style/button_text" />
+</LinearLayout>

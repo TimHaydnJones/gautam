@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <Button
+      android:background="@drawable/blue_button"
+      android:text="BOND"
+      android:layout_width="match_parent"
+      android:layout_height="72.0dp"
+      android:id="@+id/button1"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_marginBottom="11.0dp"
+      style="@style/button_text" />
+  <Button
+      android:background="@drawable/blue_button"
+      android:text="SETUP WIFI"
+      android:layout_width="match_parent"
+      android:layout_height="72.0dp"
+      android:id="@+id/button2"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_marginBottom="11.0dp"
+      style="@style/button_text" />
+  <Button
+      android:background="@drawable/blue_button"
+      android:text="REBOOT"
+      android:layout_width="match_parent"
+      android:layout_height="72.0dp"
+      android:id="@+id/button5"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_marginBottom="11.0dp"
+      style="@style/button_text" />
+  <Button
+      android:background="@drawable/blue_button"
+      android:text="TEST WIFI"
+      android:layout_width="match_parent"
+      android:layout_height="72.0dp"
+      android:id="@+id/button3"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_marginBottom="11.0dp"
+      style="@style/button_text" />
+  <Button
+      android:background="@drawable/blue_button"
+      android:text="SETUP EMAIL"
+      android:layout_width="match_parent"
+      android:layout_height="72.0dp"
+      android:id="@+id/button6"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_marginBottom="11.0dp"
+      style="@style/button_text" />
+  <Button
+      android:background="@drawable/blue_button"
+      android:text="MAIN MENU"
+      android:layout_width="match_parent"
+      android:layout_height="72.0dp"
+      android:id="@+id/button4"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_marginBottom="11.0dp"
+      style="@style/button_text" />
+</LinearLayout>

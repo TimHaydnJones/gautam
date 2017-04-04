@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">RebexTest</string>
+  <string name="s1">Save and Exit haha</string>
+  <string name="gender_prompt">Choose a gender</string>
+  <string-array name="gender_array">
+    <item>Select gender ....</item>
+    <item>Male (He)</item>
+    <item>Female (She)</item>
+    <item>Neutral (They)</item>
+  </string-array>
+</resources>

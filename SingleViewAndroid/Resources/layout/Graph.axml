@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <OxyPlot.Xamarin.Android.PlotView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:id="@+id/plotView1"
+      android:layout_marginTop="0.0dp" />
+  <Button
+      android:text="NEXT"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="40dip"
+      android:layout_marginTop="42dip"
+      android:background="@drawable/blue_button"
+      android:id="@+id/button2" />
+  <Button
+      android:text="EXIT"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="15dip"
+      android:layout_marginTop="42dip"
+      android:layout_toRightOf="@id/button2"
+      android:background="@drawable/blue_button"
+      android:id="@+id/button3" />
+</RelativeLayout>

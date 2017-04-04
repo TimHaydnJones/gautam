@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+  <TextView
+      android:text="ENTER NAME OF WIFI (SSID)"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView1"
+      android:layout_marginBottom="22.0dp"
+      android:layout_marginTop="22.0dp" />
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editText1"
+      android:layout_marginBottom="22.0dp"
+      android:textAppearance="?android:attr/textAppearanceLarge" />
+  <TextView
+      android:text="ENTER WIFI PASSWORD"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textView2"
+      android:layout_marginBottom="22.0dp" />
+  <EditText
+      android:inputType="textPassword"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/editText2"
+      android:layout_marginBottom="22.0dp"
+      android:textAppearance="?android:attr/textAppearanceLarge" />
+  <Button
+      android:background="@drawable/blue_button"
+      android:text="SAVE "
+      android:layout_width="match_parent"
+      android:layout_height="72.0dp"
+      android:id="@+id/button1"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_marginBottom="22.0dp"
+      style="@style/button_text" />
+  <Button
+      android:background="@drawable/blue_button"
+      android:text="RETURN TO MAIN MENU"
+      android:layout_width="match_parent"
+      android:layout_height="72.0dp"
+      android:id="@+id/button2"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      style="@style/button_text" />
+</LinearLayout>

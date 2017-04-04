@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="b9eye_android_client.b9eye_android_client" android:versionCode="12" android:versionName="12.0" android:installLocation="auto">
+	<uses-sdk android:minSdkVersion="16" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<application android:label="BenignEye Client" android:icon="@drawable/Icon" android:theme="@style/CustomActionBarTheme" android:configChanges="keyboardHidden|orientation|screenSize"> &gt;</application>
+</manifest>
